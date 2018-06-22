@@ -35,7 +35,7 @@ mapkit.importGeoJSON("city2surf.geojson", geoJSONParserDelegate);
 var pointA = new mapkit.MarkerAnnotation(new mapkit.Coordinate(-33.867012, 151.206529), {
     draggable: true,
     selected: true,
-    title: "Sydney Cocoaheads",
-    color: '#1ecf1a'
+    title: "Drag Me",
+    color: '#9966cc'
 });
 map.addAnnotations([pointA]);
